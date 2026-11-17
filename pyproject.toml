@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mediaflow-studio"
+version = "1.0.0"
+description = "Offline video batch exports, thumbnails, metadata and QC reports using FFmpeg"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Open-source contributors"}]
+keywords = ["ffmpeg", "video", "automation", "reels", "thumbnails", "quality-control"]
+
+[project.scripts]
+mediaflow = "mediaflow.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["mediaflow*"]
