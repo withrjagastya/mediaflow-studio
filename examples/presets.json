@@ -1,0 +1,5 @@
+{
+  "shorts_hd": {"width": 720, "height": 1280, "description": "Faster vertical render"},
+  "social_square": {"width": 720, "height": 720, "description": "Square social cut"},
+  "wide_hd": {"width": 1280, "height": 720, "description": "Landscape HD"}
+}
